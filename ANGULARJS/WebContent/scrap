@@ -1,0 +1,4 @@
+create table student(id number(5) primary key,name varchar2(15),email varchar2(50),num number(10))
+
+create sequence stuid start with 1 increment by 1 nocycle
+select stuid.nextval from dual
